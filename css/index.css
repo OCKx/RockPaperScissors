@@ -50,6 +50,6 @@ h1{
 
 @media screen and (max-width: 600px) {
     h1{
-        font-size: 900px;
+        font-size: 100px;
     }
 }
