@@ -47,6 +47,6 @@ button{
 
 @media screen and (max-width: 600px) {
     img{
-        max-width: 500px;
+        max-width: 450px;
     }
 }
