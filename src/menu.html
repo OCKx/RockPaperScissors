@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+    <div class="body-div">
+        <div class="img-div">
+            <img src="../assets/rps2.png" alt="" width="300px">
+        </div>
+
+        <div class="button-div">
+            <button onclick="parent.location.href='RockPaperScissors.html'">Play with Computer</button>
+            <button>Play with Friends</button>
+            <button onclick="parent.location.href='help.html'">Help</button>
+            <button id="quit" onclick="openQuit()">Quit Game</button>
+        </div>
+        <audio id="background-music" autoplay loop>
+            <source src="../assets/background-music.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>          
+    </div>
+
+    <script src="../js/menu.js"></script>
+</body>
+</html>

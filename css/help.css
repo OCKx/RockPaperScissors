@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: yellow;
+    margin: 0;
+    font-size: 20px;
+}
+
+.body-div{
+    margin: 40px;
+}
+
+.explain-div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-sub-div{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explain-img{
+    background-color: rgb(204, 204, 15);
+    border-radius: 30px;
+}
+
+.help-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.help-sub-div{
+    flex: 1;
+}
+
+.img-help-div{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+}
+
+i{
+    color: white;
+    width: 20x;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}

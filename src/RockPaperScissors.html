@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="rps-div">
+        <div class="pick js-pick" onclick="displayRock()">
+            <img class="imgRuck" src="../assets/rock.png" alt="ROCK" width="150px" height="150px">
+        </div>
+        <div class="pick js-pick" onclick="displayPaper()">
+            <img class="imgPaper" src="../assets/paper.png" alt="PAPER" width="150px" height="150px">
+        </div>
+        <div class="pick js-pick" onclick="displayScissors()">
+            <img class="imgScissors" src="../assets/scissors.png" alt="SCISSORS" width="150px" height="150px">
+        </div>
+    </div>
+    
+    <div class="results-div">
+        <h2 class="display">You picked:  Computer picked:</h2>
+        <h1 class="js-score">-</h1>
+        <h3 class="js-results">WIN: 0, TIE: 0, LOSE: 0</h3>
+    </div>
+    <div class="but-div">
+        <button onclick="parent.location.href='menu.html'">BACK TO MENU</button>
+        <audio id="background-music" autoplay loop>
+            <source src="../assets/background-music.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>     
+        <button onclick="resetScores()">RESET SCORES</button>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
