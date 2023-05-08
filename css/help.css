@@ -62,3 +62,15 @@ i{
     left: 0;
     cursor: pointer;
 }
+
+@media screen and (max-width: 700px) {
+    .body-div{
+        margin: 10px;
+    }
+    .explain-div{
+        justify-content: space-around;
+    }
+    .exp-sub-div{
+        margin: 0;
+    }
+}
