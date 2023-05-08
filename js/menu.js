@@ -7,8 +7,3 @@ function openQuit() {
     }
     window.close();
 }
-
-let loopPlay = document.querySelector('background-music');
-while (loopPlay) {
-    
-}
